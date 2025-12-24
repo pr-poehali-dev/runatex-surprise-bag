@@ -64,12 +64,12 @@ const PrintableFlyer = () => {
               </p>
             </div>
 
-            <div className="mb-8">
+            <div className="mb-8 flex justify-center">
               <img 
-                src="https://cdn.poehali.dev/projects/4a755d57-1033-42e0-b30d-11cc19e4bed8/files/3c3f1436-9d16-4e6e-970f-727dbd12c212.jpg"
-                alt="Сумочка-сюрприз"
-                className="rounded-2xl w-full object-cover shadow-xl"
-                style={{ maxHeight: '300px' }}
+                src="https://cdn.poehali.dev/projects/4a755d57-1033-42e0-b30d-11cc19e4bed8/files/2a9468a2-2573-4ba6-bc29-e96d4004e5dc.jpg"
+                alt="Runa Tex Logo"
+                className="rounded-xl object-contain"
+                style={{ maxHeight: '180px', maxWidth: '400px' }}
               />
             </div>
 

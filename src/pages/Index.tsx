@@ -1,10 +1,19 @@
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import Icon from "@/components/ui/icon";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background text-foreground overflow-hidden">
+      <div className="fixed top-6 right-6 z-50">
+        <Link to="/print">
+          <Button variant="outline" className="bg-background/80 backdrop-blur border-primary/30 hover:bg-primary/10">
+            <Icon name="FileText" className="mr-2" size={20} />
+            Макет для печати
+          </Button>
+        </Link>
+      </div>
       <section className="relative min-h-screen flex items-center justify-center px-6 py-20">
         <div className="absolute inset-0 bg-gradient-to-br from-primary via-secondary to-accent opacity-20 animate-gradient bg-[length:200%_200%]" />
         
